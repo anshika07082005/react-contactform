@@ -1,0 +1,93 @@
+/* Reset and full layout */
+html, body, #root, .page-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Light blue gradient background */
+.main-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Contact form card - dark blue glass effect */
+.contact-card {
+  background: rgba(25, 55, 109, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 50px;
+  width: 360px;
+  text-align: center;
+  color: #eaf4ff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Headings */
+.contact-card h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #c9e8ff;
+}
+
+.contact-card p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+/* Input fields and textarea */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #1d3557;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  background: #e0f0ff;
+  box-shadow: 0 0 5px #5dade2;
+}
+
+/* Gradient button - light blue tones */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  color: #0b2545;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #acb6e5, #74ebd5);
+}
+
+/* Status text */
+.status-text {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #b3d9ff;
+}
