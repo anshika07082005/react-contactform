@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "2b12db62-695b-4383-bd02-e0ed043d8439",
+		"name": "contactform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39392623"
+	},
+	"item": [
+		{
+			"name": "react contact form",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Anshika Rawat\",\r\n  \"email\": \"anshikarawat0708@gmail.com\",\r\n  \"phone\": \"9876543210\",\r\n  \"message\": \"Testing form submission from Postman\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us\n",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
